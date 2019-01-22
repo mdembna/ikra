@@ -1,0 +1,22 @@
+[
+    {
+        "year": "2018",
+        "images": [
+            {
+                "src": "img/1",
+                "caption": "UNTITLED, 90/120 acrylic on canvas",
+                "alt": "title"
+            },
+            {
+                "src": "img/2",
+                "caption": "UNTITLED, 70/120 acrylic on canvas",
+                "alt": "title"
+            },
+            {
+                "src": "img/3",
+                "caption": "UNTITLED, 90/120 acrylic on canvas",
+                "alt": "title"
+            }
+        ]
+    }
+]
