@@ -192,7 +192,7 @@ max-height: 100%;
 
 .section__header {
     padding: 20px;
-    font-family: 'Mr Dafoe';
+    font-family: 'Montserrat';
     
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
@@ -301,7 +301,7 @@ max-height: 100%;
 }
 
 .gallery__image:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .caption {
@@ -520,7 +520,7 @@ FOOTER */
         }
 
         .gallery__item {
-            width: 65vw;
+            width: 80vw;
         }
 
 
