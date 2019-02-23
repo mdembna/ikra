@@ -57,20 +57,19 @@ body {
   border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 
-.nav-item {
-  flex-basis: 30%;
-}
+
 
 .nav-link {
   padding: 0px;
   margin: 0px;
   font-family: "Montserrat";
-  font-size: 12px;
+  font-size: 7px;
   color: rgba(0, 0, 0, 0.6);
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
   transition: all 0.5s linear;
+
 }
 
 .nav-item :hover {
@@ -271,6 +270,7 @@ body {
   width: 100%;
   min-height: 70vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -378,7 +378,7 @@ FOOTER */
 
 @media screen and (min-width: 365px) {
   .nav-link {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .section__header h2 {
@@ -458,9 +458,9 @@ FOOTER */
 
 
 .button {
-  align-self: flex-start;
-  width: 15vw;
-  height: 7.5vw;
+  align-self: flex-end;
+  width: 12vw;
+  height: 4vw;
 }
 
 }

@@ -25,10 +25,10 @@ const switchLanguage = (lan) => {
         Array.from(paragraph).forEach(
           el => (el.innerHTML = data[0][lan].paragraph)
         );
-        //FORM
-        // let form = document.getElementsByClassName("form");
-        // Array.from(form).forEach((el, i) => el.innerHTML = data[0][lan].form[i]);
-        //COPYRIGHT
+
+        let form = document.getElementsByClassName("form-label");
+        Array.from(form).forEach((el, i) => el.innerHTML = data[0][lan].form[i]);
+       
         let copyright = document.getElementsByClassName("copyright");
         Array.from(copyright).forEach(
           (el, i) => (el.innerHTML = data[0][lan].copyright)
