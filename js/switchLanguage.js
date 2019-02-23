@@ -1,6 +1,6 @@
 $(document).ready(function () {
     document.getElementById("pol").addEventListener("click", () => switchLanguage("polish"))
-    document.getElementById("eng").addEventListener("click", () => switchLanguage("english"));
+    // document.getElementById("eng").addEventListener("click", () => switchLanguage("english"));
 
 const switchLanguage = (lan) => {
     fetch("js/language.json")
