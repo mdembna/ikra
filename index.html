@@ -64,7 +64,7 @@
     <header id="home" class="main-header">
       <h1 class="main-header__logo">
         <a href="#home" class="scroll logo-container">
-          <img class="logo" src="img/podpis.png" alt="Izabela Krywiczanin" />
+          <img id="main-logo" class="logo" src="img/podpis.png" alt="Izabela Krywiczanin" />
         </a>
       </h1>
     </header>
@@ -72,21 +72,18 @@
     <!-- Navigation -->
     <nav>
       <ul class="nav justify-content-center">
-        <!-- <li class="nav-item">
-                <a class="navigation nav-link scroll" href="#home">Home</a>
-            </li> -->
-        <!-- <li class="nav-item">
-          <a class="navigation nav-link scroll" href="#about">About</a>
-        </li> -->
         <li class="nav-item">
-          <a class="navigation nav-link scroll" href="#gallery">Paintings</a>
+          <a class="navigation nav-link scroll" href="#about">O mnie</a>
         </li>
         <li class="nav-item">
-          <a class="navigation nav-link scroll" href="#contact">Contact</a>
+          <a class="navigation nav-link scroll" href="#gallery">Obrazy</a>
         </li>
-        <!-- <li class="nav-item">
-          <a id="pol" class="navigation nav-link">POLSKI<a>
-        </li> -->
+        <li class="nav-item">
+          <a class="navigation nav-link scroll" href="#contact">Kontakt</a>
+        </li>
+        <li class="nav-item">
+          <a id="lang" class="navigation nav-link" href="#">English<a>
+        </li>
       </ul>
     </nav>
     <div class="arrow" tabindex="0">
@@ -97,25 +94,16 @@
     <!-- Main content -->
 
     <main class="main-content">
-      <!-- Landing page-->
-
-      <!-- <section class="landing-section">
-
-            <a href="#gallery" id="gallery-button" class="buttons scroll button" >
-                view gallery
-            </a>
-        </section> -->
-
       <!-- Carousel -->
 
-      <!-- <section class="content__section">
+      <section class="content__section">
         <article class="carousel__container">
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active indicator"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indicator"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="indicator"></li>
-  </ol>
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active indicator"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indicator"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2" class="indicator"></li>
+            </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img class="d-block" src="img/c-1.jpg" alt="First slide" />
@@ -161,49 +149,30 @@
 
       <section id="about" class="content__section">
         <header class="section__header">
-          <h2 class="headers">About me</h2>
+          <h2 class="headers">O mnie</h2>
         </header>
         <article class="section__article article__about">
           <div class="about__portait">
-            <img class="portrait" src="img/portait.jpg" />
+            <img class="portrait" src="img/portrait.jpg" />
           </div>
-          <p class="description paragraph">
-            Izabela Krywiczanin is an artist based in Warsaw, Poland. Since a
-            very young age Izabela was concerned about aesthetics. After
-            graduation from architectural studies she devoted herself to
-            abstract painting, so she could fully express her sensitivity.
-            <br />
-            Her creative process is extensive, free flowing and intuitive,
-            revealing unpredictability which puts on various forms. The acrylic
-            fluids on a piece of canvas, congeal into multidimensional illusion
-            of colour and depth. The inimitable pieces of art are inspired by
-            architectural materials. Each motionless composition embodies the
-            sublime beauty of organic structures, expressed in nature. Her art
-            represents symbiosis of human craft and patterns found on earth.
+          <p class="description text paragraph">
+            Izabela Krywiczanin to artystka pochodząca z Warszawy. Od najmłodszych lat z wnikliwością i entuzjazmem zgłębiała zagadnienia estetyki, a po ukończeniu studiów architektonicznych poświęciła się malarstwu abstrakcyjnemu, aby lepiej wyrazić siebie i swoją wrażliwość. <br> Jej proces twórczy jest ekstensywny, intuicyjny i swobodny, ujawniający nieprzewidywalność pod wieloma postaciami.  Akrylowe formy na płótnie ewoluują w wielowymiarową iluzję niezwykłej głębi i koloru. Każda kompozycja jest  ucieleśnieniem subtelnego piękna organicznych struktur natury. Niepowtarzalne dzieła sztuki są także zainspirowane materiałami architektonicznymi. Jej obrazy reprezentują symbiozę pomiędzy wytworami człowieka a wzorami natury.
           </p>
         </article>
-      </section> -->
+      </section>
 
       <section id="gallery" class="gallery content__section">
         <header class="section__header">
-          <h2 class="headers">Paintings</h2>
+          <h2 class="headers">Obrazy</h2>
         </header>
         <article class="section__article">
-          <!-- <ul class="nav justify-content-center gallery-nav">
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#home">Series 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#about">Series 2</a>
-                    </li>
-                </ul> -->
           <ul class="gallery__content" id="collection"></ul>
         </article>
       </section>
 
       <section id="contact" class="content__section">
         <header class="section__header">
-          <h2 class="headers">Contact</h2>
+          <h2 class="headers">Kontakt</h2>
         </header>
         <article class="section__article contact-form">
           <form
@@ -212,7 +181,7 @@
             class="form"
           >
             <div class="form-group">
-              <label class="form-label" for="formGroupExampleInput">From:</label>
+              <label class="form-label" for="formGroupExampleInput">Od:</label>
               <input
                 type="email"
                 name="_replyto"
@@ -223,7 +192,7 @@
               />
             </div>
             <div class="form-group">
-              <label class="form-label" for="exampleFormControlTextarea1">Message</label>
+              <label class="form-label" for="exampleFormControlTextarea1">Wiadomość</label>
               <textarea
                 name="name"
                 class="transparent form-control"
@@ -234,13 +203,13 @@
               ></textarea>
             </div>
             <button class="buttons button" type="submit" value="send">
-              Send
+              Wyślij
             </button>
           </form>
 
           <div class="contact_details">
-            <p class="paragraph">izabelakrywiczanin@gmail.com</p>
-            <p class="paragraph">+48 668 207 700</p>
+            <p class="text">izabelakrywiczanin@gmail.com</p>
+            <p class="text">+48 668 207 700</p>
           </div>
         </article>
       </section>
@@ -250,22 +219,22 @@
       <h2 class="screen-reader-only">Social media links</h2>
       <ul class="social-media">
         <li class="social-media__item">
-          <a href="facebook.com/6BMband/"
+          <a href="https://www.facebook.com/izabelakrywiczaninart/"
             ><img class="social-media__image" src="img/icons8-facebook.svg"
           /></a>
         </li>
         <li class="social-media__item">
-          <a href="https://www.instagram.com/6bmband/"
+          <a href="https://www.pinterest/izabelakrywiczanin"
             ><img class="social-media__image" src="img/icons8-pinterest.svg"
           /></a>
         </li>
         <li class="social-media__item">
-          <a href="https://www.last.fm/pl/music"
+          <a href="https://www.instagram/izabelakrywiczanin"
             ><img class="social-media__image" src="img/icons8-instagram.svg"
           /></a>
         </li>
       </ul>
-      <h3 class="copyright">Copyrigth 2019 by Izabela Krywiczanin</h3>
+      <h3 class="copyright">Wszelkie prawa zastrzezone. Izabela Krywiczanin, 2019</h3>
     </footer>
   </body>
 </html>

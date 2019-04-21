@@ -30,7 +30,7 @@ $(document).ready(function() {
                                       </a>
                                       </li>
                                       </ul>
-                                      <p class="caption">${img.caption}</p> 
+                                      <p class="caption">${img.polish}</p> 
                                       </li>`;
               });
               document.getElementById("collection").innerHTML = galleryItems;
