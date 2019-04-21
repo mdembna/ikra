@@ -5,7 +5,7 @@
         "buttons": ["SEND"],
         "paragraph": "Izabela Krywiczanin is an artist based in Warsaw, Poland.<br>Since a very young age Izabela was concerned about aesthetics. After graduation from architectural studies she devoted herself to abstract painting, so she could fully express her sensitivity. <br> Her creative process is extensive, free flowing and intuitive, revealing unpredictability which puts on various forms.<br>The acrylic fluids on a piece of canvas, congeal into multidimensional illusion of colour and depth. The inimitable pieces of art are inspired by architectural materials. Each motionless composition embodies the sublime beauty of organic structures, expressed in nature. Her art represents symbiosis of human craft and patterns found on earth.",
         "form": ["From", "Message"],
-        "copyright": "Copyright 2019 by Izabela Krywiczanin",
+        "copyright": "Copyright 2019 by Izabela Krywiczanin<br>Website designed by Magdalena Dembna",
         "titles": ["UNTITLED, 90/120 ACRYLIC ON CANVAS", "UNTITLED, 10/100 ACRYLIC ON CANVAS", "UNTITLED, 90/120 ACRYLIC ON CANVAS", "UNTITLED, 70/120 ACRYLIC ON CANVAS", "UNTITLED, 90/120 ACRYLIC ON CANVAS", "UNTITLED, 70/100 ACRYLIC ON CANVAS", "UNTITLED, 80/110 ACRYLIC ON CANVAS", "UNTITLED, 80/110 ACRYLIC ON CANVAS","UNTITLED, 70/100 ACRYLIC ON CANVAS"]
     },
     "polski": {
@@ -14,7 +14,7 @@
         "buttons": ["WYŚLIJ"],
         "paragraph": "Izabela Krywiczanin to artystka pochodząca z Warszawy.<br>Od najmłodszych lat z wnikliwością i entuzjazmem zgłębiała zagadnienia estetyki, a po ukończeniu studiów architektonicznych poświęciła się malarstwu abstrakcyjnemu, aby lepiej wyrazić siebie i swoją wrażliwość.<br> Jej proces twórczy jest ekstensywny, intuicyjny i swobodny, ujawniający nieprzewidywalność pod wieloma postaciami.<br>Akrylowe formy na płótnie ewoluują w wielowymiarową iluzję niezwykłej głębi i koloru. Każda kompozycja jest  ucieleśnieniem subtelnego piękna organicznych struktur natury. Niepowtarzalne dzieła sztuki są także zainspirowane materiałami architektonicznymi. Jej obrazy reprezentują symbiozę pomiędzy wytworami człowieka a wzorami natury.",
         "form": ["Od", "Wiadomość"], 
-        "copyright": "Wszelkie prawa zastrzezone. Izabela Krywiczanin, 2019",
+        "copyright": "Wszelkie prawa zastrzezone. Izabela Krywiczanin, 2019<br>Projekt strony: Magdalena Dembna",
         "titles": ["BEZ TYTUŁU, 90/120 AKRYL NA PŁÓTNIE", "BEZ TYTUŁU, 10/100 AKRYL NA PŁÓTNIE", "BEZ TYTUŁU, 90/120 AKRYL NA PŁÓTNIE", "BEZ TYTUŁU, 70/120 AKRYL NA PŁÓTNIE", "BEZ TYTUŁU, 90/120 AKRYL NA PŁÓTNIE", "BEZ TYTUŁU, 70/100 AKRYL NA PŁÓTNIE", "BEZ TYTUŁU, 80/110 AKRYL NA PŁÓTNIE", "BEZ TYTUŁU, 80/110 AKRYL NA PŁÓTNIE","BEZ TYTUŁU, 70/100 AKRYL NA PŁÓTNIE"]
     }
 }]

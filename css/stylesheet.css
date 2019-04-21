@@ -4,6 +4,10 @@
   margin: 0px;
 }
 
+a {
+  color: black;
+}
+
 ::selection {
   background-color: rgba(0, 0, 0, 0.1);
 }
