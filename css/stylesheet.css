@@ -209,6 +209,7 @@ body {
 
 .description {
   margin: 15vw 10vw;
+  text-align: justify;
 }
 
 .text {
@@ -429,28 +430,6 @@ FOOTER */
     padding: 24px;
   }
 
-  /* ABOUT */
-
-  .article__about {
-    width: 100%;
-    display: flex;
-    direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 90vh;
-    padding: 0px;
-  }
-
-  .about__portait {
-    flex-basis: 50%;
-  }
-
-  .description {
-    flex-basis: 50%;
-    padding: 60px 60px;
-    margin: 0px;
-  }
-
   .paragraph {
     font-size: 16px;
   }
@@ -479,15 +458,35 @@ FOOTER */
     padding: 10px;
     font-size: 30px;
   }
+  /* ABOUT */
 
+  .article__about {
+    width: 100%;
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 90vh;
+    padding: 0px;
+  }
+
+  .about__portait {
+    flex-basis: 50%;
+  }
+
+  .description {
+    flex-basis: 50%;
+    padding: 60px 60px;
+    margin: 0px;
+  }
   .caption {
     font-size: 15px;
   }
 
 
-.button {
-  align-self: flex-end;
-}
+  .button {
+    align-self: flex-end;
+  }
 
 }
 @media screen and (min-width: 1090px) {
