@@ -5,6 +5,7 @@ $(document).ready(function () {
 
   const toggleLanguage = () => {
     lan = languageSwitch.innerHTML.toLowerCase();
+    languageSwitch.setAttribute('href', `#${lan}`);
       fetch("js/language.json")
         .then(resp => resp.json())
         .then(data => {
