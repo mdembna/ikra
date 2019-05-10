@@ -5,7 +5,7 @@ $(document).ready(function () {
 
   const toggleLanguage = () => {
     lan = languageSwitch.innerHTML.toLowerCase();
-    languageSwitch.setAttribute('href', `#${lan}`);
+    // languageSwitch.setAttribute('href', `#${lan}`);
       fetch("js/language.json")
         .then(resp => resp.json())
         .then(data => {
@@ -26,7 +26,7 @@ $(document).ready(function () {
     
           let paragraph = document.getElementsByClassName("paragraph");
           Array.from(paragraph).forEach(
-            el => (el.innerHTML = data[0][lan].paragraph)
+            (el, i) => (el.innerHTML = data[0][lan].paragraph[i])
           );
           
           let titles = $('.caption');
